@@ -16,8 +16,9 @@ void gauntlet_scene_browse_on_enter(void* context) {
     for(uint8_t i = 0; i < pack->count; i++) {
         CtfChallenge* c = &pack->challenges[i];
         bool solved = ctf_progress_is_solved(app->progress, c->id);
-        char label[52];
-        /* "* Title  (RFID 120)" - leading star marks a solved challenge */
+        /* sized for the worst case: mark + full title + tag + 5-digit points */
+        char label[80];
+        /* "* Title  RFID 120" - leading star marks a solved challenge */
         snprintf(
             label,
             sizeof(label),
